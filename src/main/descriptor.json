@@ -19,7 +19,17 @@
     } ]
   },
   "interfaceComponents" : {
-    "inputPorts" : [ ],
+    "inputPorts" : [ {
+      "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:lorenzoBruscoProductAnag:1:inputports:erp",
+      "name" : "erp",
+      "version" : "1.0.0",
+      "displayName" : "erp",
+      "description" : "",
+      "promises" : {
+        "servicesType" : ""
+      },
+      "dependsOn" : "blindata:systems:lorenzobrusco-erp"
+    } ],
     "outputPorts" : [ ]
   }
 }

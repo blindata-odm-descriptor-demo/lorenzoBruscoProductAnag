@@ -10,7 +10,13 @@
     "owner" : {
       "id" : "l.brusco@crif.com",
       "name" : "Lorenzo Brusco"
-    }
+    },
+    "contactPoints" : [ {
+      "name" : "Tech Owner",
+      "address" : "l.brusco@crif.com",
+      "channel" : "mail",
+      "description" : "Data Producy Tech Owner"
+    } ]
   },
   "interfaceComponents" : {
     "inputPorts" : [ ],

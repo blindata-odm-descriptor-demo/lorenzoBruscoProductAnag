@@ -1,0 +1,19 @@
+{
+  "dataProductDescriptor" : "1.0.0",
+  "info" : {
+    "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:lorenzoBruscoProductAnag:1",
+    "domain" : "lorenzobruscoRetail",
+    "name" : "lorenzoBruscoProductAnag",
+    "displayName" : "Lorenzo Brusco Product Anag",
+    "description" : "Data Products that manages product master data",
+    "version" : "1.0.0",
+    "owner" : {
+      "id" : "l.brusco@crif.com",
+      "name" : "Lorenzo Brusco"
+    }
+  },
+  "interfaceComponents" : {
+    "inputPorts" : [ ],
+    "outputPorts" : [ ]
+  }
+}

@@ -6,7 +6,7 @@
     "name" : "lorenzoBruscoProductAnag",
     "displayName" : "Lorenzo Brusco Product Anag",
     "description" : "Data Products that manages product master data",
-    "version" : "1.0.0",
+    "version" : "1.0.2",
     "owner" : {
       "id" : "l.brusco@crif.com",
       "name" : "Lorenzo Brusco"
@@ -48,7 +48,7 @@
             "schema" : {
               "databaseSchemaName" : "cdm",
               "tables" : [ {
-                "version" : "1.0.0",
+                "version" : "1.0.2",
                 "specification" : "json-schema",
                 "specificationVersion" : "1",
                 "definition" : {
@@ -63,6 +63,13 @@
                       "physicalType" : "integer",
                       "description" : "",
                       "ordinalPosition" : 1
+                    },
+                    "sku_code" : {
+                      "name" : "sku_code",
+                      "displayName" : "sku_code",
+                      "physicalType" : "varchar",
+                      "description" : "",
+                      "ordinalPosition" : 2
                     }
                   },
                   "s-context" : {
